@@ -73,7 +73,7 @@ header {
 nav {
 	display: inline-block;
 	position: absolute;
-	right: 50px;
+	right: 80px;
 	width: 300px;
 	margin: 40px 10px 40px 10px;
 	text-align: center;
@@ -130,7 +130,6 @@ a:visited {
 	border: solid 1px #cccccc;
 	border-radius: 10px;
 	margin: 40px 10px 40px 0px;
-	padding: 0px;
 	line-height: 32px;
 }
 
@@ -187,4 +186,27 @@ form {
 input {
 	margin-bottom: 20px;
 	font-size: 20px;
+}
+
+.box {
+	width: 260px;
+	margin: 10px 0px 0px 40px;
+	float: left;
+}
+
+.gallery {
+	width: 100%;
+}
+
+.label {
+	position: relative;
+	bottom: 70px;
+	height: 50px;
+	background-color: #4aaaa5;
+	width: 100%;
+	color: #eee;
+	text-align: center;
+	font-family: Georgia, Times, 'Times New Roman', serif;
+	font-size: 24px;
+	padding-top: 10px;
 }
