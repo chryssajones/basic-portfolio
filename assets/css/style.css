@@ -1,0 +1,180 @@
+.wrap {
+   background-image: url("../images/rockywall_@2X.png");
+}
+
+body {
+	font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+	color: #777777;
+	font-size: 18px;
+	line-height: 120%;
+	margin: 0px auto;
+    padding: 0;
+}
+
+
+h1, h2, h3, h4, {
+	font-family: Georgia, Times, 'Times New Roman', serif;
+	}
+
+h1 {
+	font-size: 36px;
+	font-weight: bold;
+	color: #4aaaa5;
+	padding: 20px 0px 20px 0px;
+	border-bottom: solid 3px #ddd;
+	margin: 20px;
+}
+
+h2 {
+	font-size: 28px;
+	font-weight: bold;
+	color: #4aaaa5;
+	padding: 0px 0px 20px 0px;
+	border-bottom: solid 3px #ddd;
+	margin: 0px 0px 20px 0px;
+}	
+
+h3 {
+	font-size: 20px;
+	font-weight: bold;
+	color: #666666;
+	margin: 20px 20px 10px 20px;
+}
+
+h5 {
+	font-size: 14px;
+	color: #ccc;
+	text-align: center;
+}
+
+
+header {
+	height: 100px;
+	background-color: #ffffff;
+	border-bottom: solid 3px #cccccc;
+}
+
+.logo {
+	display: inline-block;
+	background-color: #4aaaa5;
+	padding: 40px;
+	margin: 0px;
+	position: relative;
+	left: 50px;
+	width: 270px;
+	text-align: center;
+	font-family: Georgia, Times, 'Times New Roman', serif;
+	font-size: 32px;
+	color: #ffffff;
+	font-weight: bold;
+	}
+
+
+nav {
+	display: inline-block;
+	position: absolute;
+	right: 50px;
+	width: 300px;
+	margin: 40px 10px 40px 10px;
+	text-align: center;
+}
+
+.nav1 {
+	position: absolute;
+	width: 90px;
+	right: 210px;
+	border-right: solid 2px #eee;
+	
+}
+
+.nav2 {
+	position: absolute;
+	width: 120px;
+	right: 90px;
+	border-right: solid 2px #eee;
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+}
+
+.nav3 {
+	position: absolute;
+	width: 90px;
+	right: 0px;
+	margin: 0px 0px 0px 0px;
+	}
+
+.navlink {
+	width: 100%;
+	font-size: 20px;
+	text-align: center;
+	padding: 20px;
+	color: #999999;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+
+.section {
+	z-index: 1;
+	display: inline-block;
+	position: relative;
+	left: 50px;
+	width: 650px;
+	background-color: #ffffff;
+	border: solid 1px #cccccc;
+	border-radius: 10px;
+	margin: 40px 10px 40px 0px;
+	padding: 0px;
+	line-height: 32px;
+}
+
+#bio-image {
+	width: 240px;
+	float: left;
+	margin: 20px;
+	border: solid 2px #ddd;
+	border-radius: 10px;
+	
+}
+
+p {
+	margin: 30px;
+}
+
+ul {
+	margin: 0px 30px 30px 40px;
+	list-style-type: circle;
+	list-style-position: inside;
+}
+
+.aside {
+	display: inline-block;
+	position: absolute;
+	right: 50px;
+	width: 270px;
+	background-color: #ffffff;
+	border: solid 1px #cccccc;
+	border-radius: 10px;
+	margin: 40px 0px 40px 0px;
+	padding: 30px;
+	line-height: 32px;
+}
+
+.social {
+	margin: 8px;
+	}
+
+footer {
+	width: 100%
+	height: 80px;
+	background-color: #666666;
+	padding: 20px;
+	border-top: solid 6px #4aaaa5; 
+	text-align: center
+}
