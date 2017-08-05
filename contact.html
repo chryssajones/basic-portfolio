@@ -1,45 +1,55 @@
 <html>
 <head>
-	<link rel="stylesheet" type="text/css" href="reset.css">
-	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<title>Chryssa Jones Portfolio</title>
 </head>
+
 <body>
+	<div class="wrap">
 
-	<header>
-		<div class="logo">Chryssa Jones
-		</div>
+		<header>
+			<div class="logo">Chryssa Jones
+			</div>
 
-		<nav>
-			<a class="navlink">About</a>
-			<a class="navlink">Portfolio</a>
-			<a class="navlink">Contact</a>
-		</nav>
+			<nav>
+				<div class="nav1">
+				<a class="navlink" target="_blank" href="index.html">About</a></div>
+				<div class="nav2">
+				<a class="navlink" target="_blank" href="portfolio.html">Portfolio</a></div>
+				<div class="nav3">
+				<a class="navlink" target="_blank" href="contact.html">Contact</a></div>
+			</nav>
+		</header>
 
-	</header>
 
-	<section class="section">
-		<h1>Contact Me</h1>
-		<form action="/action_page.php">
-			Name<br>
-				<input type="text" name="name" size="50"><br>
-			Email<br>
-				<input type="email" name="email" size="50"><br>
-			Message<br>
-				<textarea cols="50" rows="10" name="message"></textarea><br><br>
-			<input type="submit" name="Submit">
-		<form>
-	</section>
+		<section class="section">
+			<h1>Contact Me</h1>
+			<form action="/action_page.php">
+				Name<br>
+					<input type="text" name="name" size="53"><br>
+				Email<br>
+					<input type="email" name="email" size="53"><br>
+				Message<br>
+					<textarea cols="80" rows="10" name="message"></textarea><br><br>
+				<input type="submit" name="Submit">
+			</form>
+		</section>
 
-	<aside>
-		<h2>Connect with Me</h2>
-		<img class="git" src="assets/images/git.png">
-		<img class="linkedin" src="assets/images/linkedin.png">
-		<img class="stack" src="assets/images/stack.png">
-	</aside>
 
-	<footer>
-		<h5>&#9400; Copyright 2016 Chryssa Jones</h5>
-	</footer>
+		<aside class="aside">
+			<h2>Connect with Me</h2>
+		
+			<a target="_blank" href="http://github.com/chryssajones"><img class="social" src="assets/images/git.png"></a>
+			<a target="_blank" href="http://linkedin.com/in/chryssajones"><img class="social" src="assets/images/linkedin.png"></a>
+			<a target="_blank" href="https://stackoverflow.com/users/8281269/chryssa-jones"><img class="social" src="assets/images/stack.png"></a>
+		</aside>
 
+
+		<footer>
+			<h5>&#9400; Copyright 2016 Chryssa Jones</h5>
+		</footer>
+
+	</div>
 </body>
 </html>
